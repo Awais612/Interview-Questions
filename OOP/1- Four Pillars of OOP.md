@@ -21,3 +21,42 @@ my_car = Car("Toyota", "Camry")
 my_car.accelerate()
 print(my_car.speed)  # Output: 10
 ```
+
+# Abstraction
+
+**Definition:**
+Abstraction involves simplifying complex systems by modeling classes based on the essential properties and behaviors they share, while ignoring irrelevant details. It allows programmers to focus on the relevant aspects of an object and hide unnecessary complexities.
+
+**Example:**
+```java
+abstract class Shape {
+    abstract double area();
+}
+
+class Circle extends Shape {
+    private double radius;
+
+    public Circle(double radius) {
+        this.radius = radius;
+    }
+
+    @Override
+    double area() {
+        return Math.PI * radius * radius;
+    }
+}
+
+class Square extends Shape {
+    private double sideLength;
+
+    public Square(double sideLength) {
+        this.sideLength = sideLength;
+    }
+
+    @Override
+    double area() {
+        return sideLength * sideLength;
+    }
+}
+
+```
