@@ -1,4 +1,6 @@
+<center>
 <h1 align-items="center">Interview Questions 🚀</h1>
+</center>
 
 Welcome to our comprehensive GitHub repository dedicated to aiding aspiring candidates in their interview preparations. This repository is meticulously curated to provide a diverse collection of questions and solutions, neatly organized into categories corresponding to their respective domains. Whether you're aiming for a software engineering role, data science position, or any other field, this repository is designed to equip you with the knowledge and skills needed to excel in your interviews.
 <br>
