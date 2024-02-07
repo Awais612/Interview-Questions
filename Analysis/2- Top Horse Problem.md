@@ -1,21 +1,25 @@
 # You have given 25 horses and have to find top 3 in minimum races.Only five horses can participate in a race.
 
-To find the top 3 horses in the minimum number of races, you can follow these steps:
+To find the top 3 horses among 25 with a constraint of only 5 horses racing at a time, you can use the following approach:
 
 ### Initial Races (5 races):
 - Divide the 25 horses into 5 groups of 5 horses each.
 - Conduct 5 races with each group, determining the fastest horse in each group.
 
-### Identify Top Horse in Each Group:
-- Take the winner from each of the 5 initial races and put them in a new race (Race 6).
-- The winner of Race 6 is the overall fastest horse.
+### Overall Ranking (Initial Ranking):
+- Combine the winners of each group race into a new race (Race 6).
+- The winner of this race is the overall fastest horse.
+- The second and third positions in this race are the second and third fastest horses overall.
 
-### Identify Second and Third Horses:
-- Now, take the second and third-place horses from the Race 6 along with the second-place horse from each of the 5 initial races (a total of 7 horses).
-- Conduct Race 7 to determine the second and third-place horses overall.
+### Additional Races for Ranking:
+- Now, you have the top 3 horses from Race 6, and you also have the winners of the remaining 4 groups (not included in the initial 6-race process).
+- Conduct two additional races (Races 7 and 8):
+> - Race 7: Winners of the 2nd positions from the initial group races, the 2nd position horse from the overall ranking (Race 6).
+> - Race 8: Winners of the 3rd positions from the initial group races, the 3rd position horse from the overall ranking (Race 6).
+- This will give you the order of the 2nd and 3rd position horses overall.
 
-### Final Results:
+### Final Ranking:
 - The winner of Race 6 is the fastest horse.
-- The second and third-place horses from Race 7 are the second and third-fastest horses overall.
+- The 2nd and 3rd position horses from Race 7 and Race 8 are the 2nd and 3rd fastest horses overall.
 
-This method uses a total of 7 races to identify the top 3 horses out of 25 in the minimum number of races.
+By following this method, you can determine the top 3 horses with a total of 8 races (5 initial group races + 1 overall ranking race + 2 additional races for ranking).
