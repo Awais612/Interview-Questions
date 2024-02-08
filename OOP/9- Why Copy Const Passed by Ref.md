@@ -7,3 +7,15 @@ When it comes to passing objects to functions, there are `two common ways` to pa
 
 ### Passing by Reference:
 
+- In this approach, a reference to the original object is passed to the function.
+- No new object is created, and the function works directly with the original object.
+- This can be more efficient than passing by value, especially for large objects, as it avoids unnecessary copying.
+
+```cpp
+void myFunction(const MyClass &obj) {
+    // Code here
+}
+
+MyClass mainObj;
+myFunction(mainObj);  // No copy constructor is called, and the function works with mainObj directly
+```
