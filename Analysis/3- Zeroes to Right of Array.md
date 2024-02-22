@@ -1,4 +1,5 @@
 # MOVE ZEROES TO RIGHT SIDE OF THE ARRAY IN O(N)
+`Pentaloop`
 
 To move all zeroes to the right side of an array in O(n) time complexity, you can use the two-pointer approach. Here's a simple algorithm in Python:
 
