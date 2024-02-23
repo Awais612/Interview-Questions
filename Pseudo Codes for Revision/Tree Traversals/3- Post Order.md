@@ -17,4 +17,4 @@ postorder(node):
 ```
 
 ### Time Complexity
-- O(n<sup>2</sup>)
+- O(n)
