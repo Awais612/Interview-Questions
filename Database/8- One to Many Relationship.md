@@ -1,4 +1,5 @@
 # One-to-many Relationship in Relation Database
+`Netsol`
 
 In a relational database, a **one-to-many (1:N) relationship** is a type of association between two tables. This relationship occurs when each record in the first table can be related to multiple records in the second table, but each record in the second table is related to only one record in the first table.
 
