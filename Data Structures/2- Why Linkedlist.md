@@ -1,8 +1,6 @@
 # Why Linkedlist?
 `Arbisoft`
 
-# Linked Lists
-
 Linked lists are a data structure used in computer science to organize and store data in a linear fashion. Unlike arrays, linked lists do not require contiguous memory locations, which makes them more flexible and dynamic.
 
 ## Reasons for Using Linked Lists
