@@ -1,4 +1,5 @@
 # Which Data Strcuture is used to find the occurence of a character in a string
+`i2C`
 
 To find the occurrence of a character in a string optimally, you can use a data structure called a hash table or a dictionary, depending on the programming language you're using.
 
