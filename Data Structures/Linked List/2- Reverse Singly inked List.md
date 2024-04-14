@@ -2,6 +2,8 @@
 
 To reverse a singly linked list in O(N) time and O(1) space, you can use an iterative approach. Here's a simple algorithm to achieve this:
 
+`Educative`
+
 ```python
 class ListNode:
     def __init__(self, value=0, next=None):
