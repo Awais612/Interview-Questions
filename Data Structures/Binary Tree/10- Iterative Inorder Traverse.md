@@ -3,10 +3,6 @@
 `Educative`
 
 ```python
-from collections import deque
-from binary_tree import *
-from binary_tree_node import *
-
 # Function that prints the in-order traversal of the binary tree
 def inorder_iterative(root):
   result = ""

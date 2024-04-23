@@ -1,5 +1,5 @@
 # Behavior of Left Outer Join
-`Tintash`
+`Tintash` `I2C`
 
 A LEFT OUTER JOIN is a type of SQL join operation that returns all records from the left table (the table mentioned before the JOIN keyword), and the matched records from the right table (the table mentioned after the JOIN keyword). If there is no match, NULL values are returned for the columns from the right table.
 
