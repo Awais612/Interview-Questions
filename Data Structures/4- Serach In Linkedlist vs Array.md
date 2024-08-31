@@ -1,4 +1,5 @@
 # Search in LinkedList vs Array
+`Arbisoft`
 
 ### Searching in an Array:
 
@@ -12,8 +13,9 @@
 3. **Complexity:**
    - In the worst case, the time complexity for linear search in an unsorted array is O(n), where n is the number of elements.
 
-4. **Cache Locality:**
-   - Arrays usually benefit from better cache locality, as elements are stored in contiguous memory locations.
+4. **Cache Locality: (✔ Important Point)**
+   - Arrays usually benefit from better `cache locality`, as elements are stored in contiguous memory locations.
+<br><br><br>
 
 ### Searching in a LinkedList:
 
