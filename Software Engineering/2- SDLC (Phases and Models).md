@@ -1,4 +1,5 @@
 # SDLC (Phases and Models)
+`Netsol`
 
 The Software Development Life Cycle (SDLC) is a systematic process for planning, creating, testing, deploying, and maintaining software. It consists of several phases, and different models can be used to structure and guide the development process. Here are the common phases and models in the SDLC:
 
