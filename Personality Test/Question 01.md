@@ -1,0 +1,7 @@
+## Tell us about a time when you were best at something. What did you have to do to get there. 
+`Bayt`
+<br><br>
+
+Reflecting on a time when I felt truly skilled, I’d say it was during my freelance journey. I’d been in Computer Science for over [number] years, delivering projects in areas like [technologies names, i.e. AI, Python, C++, and web development], especially focusing on solutions for international clients. Each project demanded not just technical skills but also the ability to communicate well, empathize with my clients’ goals, and adapt to different project demands. One of the most rewarding moments was [any example of the product that you built and is a full fledge product, e.g. co-founding VIDIT, a tool that transforms Urdu poetry into continuous, realistic videos. It was a fusion of art and technology that felt so natural yet challenging].
+
+Reaching that level of skill meant putting in years of dedication. I worked on building my foundation, experimenting, and honestly, making plenty of mistakes along the way. Staying adaptable was key—I’d take on new projects that pushed me out of my comfort zone, and each experience added another layer of expertise. Working with clients worldwide has taught me to listen closely and balance creativity with technical constraints. At the end of the day, it’s this journey of constant learning and improving that’s allowed me to bring unique, successful projects to life, not only for myself but also for those I work with.
