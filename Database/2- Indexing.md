@@ -1,8 +1,11 @@
 # Indexing in Databases and How to Create an Index
+`Technosoft`
+<br><br>
 
 Indexing is a database optimization technique used to improve the speed of data retrieval operations on a database table. It involves creating a data structure (an index) that provides a quick lookup mechanism, allowing the database engine to locate and access the rows in a table more efficiently. Indexing is crucial for improving the performance of query operations, especially when dealing with large datasets.
 
 When you create an index, you essentially create a separate structure that stores a sorted or hashed version of the indexed columns' values, along with pointers to the actual data rows in the table. This helps in reducing the number of rows that need to be scanned during query execution, resulting in faster query performance.
+<br><br>
 
 ## Choosing Columns for Indexing
 
@@ -21,6 +24,7 @@ Here are some considerations for choosing columns for indexing:
 5. **Avoid Over-Indexing:** While indexing can improve query performance, having too many indexes can slow down data modification operations (inserts, updates, deletes) and increase storage requirements. Therefore, it's important to strike a balance and avoid over-indexing.
 
 Remember that the effectiveness of indexing depends on the specific usage patterns of your application. Regular monitoring and analysis of query performance can help you identify areas where indexing can be beneficial and where adjustments might be needed.
+<br><br>
 
 ## How to Create an Index
 
