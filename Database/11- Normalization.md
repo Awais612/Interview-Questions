@@ -1,5 +1,5 @@
 ## Normalization
-`I2C` `Netsol`
+`I2C` `Netsol` `Technosoft`
 
 Normalization is a process used in databases to organize data efficiently and minimize redundancy. It involves breaking down a database into smaller, related tables and defining relationships between them. The primary goals of normalization are to reduce data redundancy, prevent anomalies in data modification, and ensure data integrity.
 

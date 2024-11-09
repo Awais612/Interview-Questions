@@ -1,5 +1,5 @@
 # How To Resolve Many-To-Many Relationship
-<span style="color:red">Important</span> `Netsol` `i2C`
+<span style="color:red">Important</span> `Netsol` `i2C` `Technosoft`
 
 Resolving a many-to-many relationship in a database involves creating an intermediate table, also known as a `junction table` or `linking table`, to represent the relationship between the two entities. This intermediate table typically includes foreign keys that reference the primary keys of the two entities involved in the many-to-many relationship.
 

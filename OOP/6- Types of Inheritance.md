@@ -1,4 +1,6 @@
 # Types of Inheritance
+`Technosoft`
+<br><br>
 
 In Java, inheritance is a fundamental concept that allows a class to inherit properties and behaviors from another class. There are several types of inheritance in Java:
 
