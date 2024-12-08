@@ -1,6 +1,6 @@
 ## [1,2,3,4,5] ==> [120,60,40,30,24] without using divide
 
-You can achieve this by first calculating the total product of all elements in the list and then dividing this total product by each element to get the desired output. However, since you mentioned not using division, we can use a different approach by multiplying elements selectively.
+We can achieve this by first calculating the total product of all elements in the list and then dividing this total product by each element to get the desired output. However, since its mentioned not using division, we can use a different approach by multiplying elements selectively.
 
 Here's a Python implementation without using division:
 

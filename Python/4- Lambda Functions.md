@@ -2,7 +2,7 @@
 
 `Arbisoft`
 
-Lambda functions in Python are small, anonymous functions defined using the `lambda` keyword. Unlike regular functions that are defined using the `def` keyword and can contain multiple expressions, lambda functions are limited to a single expression. Here's a basic structure of a lambda function:
+Lambda functions in Python are <mark>small, anonymous</mark> functions defined using the `lambda` keyword. Unlike regular functions that are defined using the `def` keyword and can contain multiple expressions, lambda functions are limited to a single expression. Here's a basic structure of a lambda function:
 
 ```python
 lambda arguments: expression

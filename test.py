@@ -1,20 +1,17 @@
-def sort_colors (arr):
-    #TODO: WRITE - CODE - HERE
-    start = 0
-    cur = 0
-    end = len(arr) - 1
+def min_operations(nums):
+    nums.sort()  # Sorting is removed since it's unnecessary
+    arr = []
 
-    while start < end and cur <= end:
-        if arr[cur] == 0:
-            arr[start], arr[cur] = arr[cur], arr[start]
-            start += 1
-            cur += 1
-        elif arr[cur] == 1:
-            cur += 1
-        elif arr[cur] == 2:
-            arr[cur], arr[end] = arr[end], arr[cur]
-            end -= 1
+    while nums:
+        # Using slicing to efficiently remove the first two elements
+        alice_value, bob_value = nums[:2]
+        nums = nums[2:]
 
-input_list = [2,0,2,1,1,0]
-sort_colors(input_list)
-print(input_list)
+        # Appending values to the result array in the desired order
+        arr.append(bob_value)
+        arr.append(alice_value)
+
+    return arr
+
+nums = [3, 1, 2, 4]
+print(min_operations(nums))

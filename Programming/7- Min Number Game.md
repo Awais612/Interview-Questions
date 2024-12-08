@@ -9,7 +9,6 @@
 
 ```python
 def min_operations(nums):
-    nums.sort()  # Sorting is removed since it's unnecessary
     arr = []
 
     while nums:
