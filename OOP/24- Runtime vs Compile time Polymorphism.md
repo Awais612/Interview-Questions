@@ -1,4 +1,5 @@
 # Runtime Polymorphism vs Compile-Time Polymorphism
+`Frag Games`
 
 Polymorphism is one of the key concepts in Object-Oriented Programming (OOP) and refers to the ability of different objects to be accessed through the same interface. However, polymorphism can be implemented in two distinct ways: **compile-time** and **runtime polymorphism**.
 
