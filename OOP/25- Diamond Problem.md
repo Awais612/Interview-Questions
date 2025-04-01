@@ -1,4 +1,4 @@
-# The Diamond Problem in Python
+# The Diamond Problem
 `Frag Games`
 
 The **Diamond Problem** occurs in multiple inheritance when two classes inherit from the same superclass, and a further class inherits from both of these classes. This creates an inheritance "diamond" shape. The main issue arises when a method in the top-level superclass is inherited by both intermediate classes. When the bottom-level class calls that method, the interpreter must decide which superclass method to invoke.
@@ -33,23 +33,23 @@ class A:
 class B(A):
     def greet(self):
         print("Hello from B")
-        super().greet()  # Call the greet method from the next class in the MRO
+        super().greet()
 
 class C(A):
     def greet(self):
         print("Hello from C")
-        super().greet()  # Call the greet method from the next class in the MRO
+        super().greet()
 
 class D(B, C):
     def greet(self):
         print("Hello from D")
-        super().greet()  # Follow the MRO to decide which greet() to call next
+        super().greet()
 
 # Create an instance of D and call greet()
 d = D()
 d.greet()
 
-# Print the Method Resolution Order for class D
+# Print the Method Resolution Order for class D (Optional)
 print("MRO for class D:", [cls.__name__ for cls in D.mro()])
 ```
 <br><br>
