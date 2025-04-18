@@ -54,3 +54,15 @@ A `Car` class depends on a `Driver` class to operate it.
 These relationships provide flexibility, modularity, and reusability in OOP, allowing developers to design systems that are organized and maintainable.
 
 
+
+### 🔗 Class Relationship Types in OOP
+
+| Relationship      | Type               | Description                                                  | Example                        |
+|-------------------|--------------------|--------------------------------------------------------------|--------------------------------|
+| **Inheritance**   | IS-A               | One class inherits from another                              | `Dog IS-A Animal`              |
+| **Composition**   | HAS-A              | One class owns another class strongly                        | `Car HAS-A Engine`             |
+| **Aggregation**   | HAS-A (weak)       | One class uses another, but not tightly bound                | `Department HAS-A Professor`   |
+| **Association**   | Uses / Linked      | Classes are connected, but no ownership                      | `Teacher teaches Student`      |
+| **Dependency**    | Uses-A             | Temporary, method-level relationship                         | `Order uses Payment`           |
+| **Realization**   | Implements         | A class implements an interface                              | `Dog implements Pet`           |
+
