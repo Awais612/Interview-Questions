@@ -60,3 +60,37 @@ Both support polymorphism, enabling objects of different classes to be treated a
 - Use when you want to define a contract for multiple classes to implement.
 - When you need to support multiple inheritances.
 - If you want to provide a common set of methods without specifying the implementation.
+
+
+
+
+
+
+
+### 🔑 Key Differences Between Interfaces and Abstract Classes
+
+| Feature                          | Interface                                               | Abstract Class                                          |
+|----------------------------------|---------------------------------------------------------|---------------------------------------------------------|
+| **Purpose**                      | Defines a contract (what a class *must* do)             | Provides partial implementation (what a class *can* do) |
+| **Methods**                      | All methods are abstract by default (Java ≤7)           | Can have both abstract and concrete methods             |
+| **Fields/Variables**             | Only `public static final` (constants)                  | Can have instance variables and any access modifier     |
+| **Constructors**                 | ❌ No constructors                                       | ✅ Can have constructors                                |
+| **Inheritance Support**          | A class can implement **multiple** interfaces           | A class can extend **only one** abstract class          |
+| **Access Modifiers**             | Methods are `public` by default                         | Can use any access modifier                             |
+| **Default Implementation**       | From Java 8+, `default` and `static` methods are allowed| Can provide full or partial implementations             |
+| **When to Use**                  | Define a contract for unrelated classes                 | Share common behavior/state across related classes      |
+| **Performance/Overhead**         | No state → lightweight                                  | Can hold state → more overhead                          |
+
+
+
+
+### 🧠 When to Use What?
+
+| Use Case                                                                 | Prefer          |
+|--------------------------------------------------------------------------|-----------------|
+| Multiple inheritance of behavior is needed                               | ✅ Interface     |
+| You want to define a capability (`Runnable`, `Comparable`, etc.)         | ✅ Interface     |
+| You want to share **common code** across several related classes         | ✅ Abstract Class|
+| The base class has **fields/state** to be inherited                      | ✅ Abstract Class|
+| Future-proofing for **multiple inheritance** of type                     | ✅ Interface     |
+| You only want to enforce a set of method signatures (no implementation) | ✅ Interface     |
