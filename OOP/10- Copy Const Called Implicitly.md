@@ -51,3 +51,10 @@ MyClass createObject() {
 }
 ```
 
+
+Scenario | Copy Constructor Called Implicitly?
+ClassName obj2 = obj1; | ✅ Yes
+Pass by value to function | ✅ Yes
+Return object by value | ✅ Yes (unless RVO/move)
+Throw/catch object by value | ✅ Yes
+Assign object (obj2 = obj1;) | ❌ No — uses assignment operator
